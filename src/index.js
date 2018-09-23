@@ -9,7 +9,11 @@ const API_KEY = 'AIzaSyA2jvSX--7iPnmaBhAZHeuIBp6ioVAqpR8'
 // This component should produce some HTML
 
 const App = () => {
-    return <div>Hi!</div>;
+    return (
+            <div>
+                <SearchBar />
+            </div>
+        );
 }
 
 // Get components generated html into the DOM
